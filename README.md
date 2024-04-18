@@ -7,6 +7,15 @@
 
 本書で紹介したPython（PyTorch）のソースコード，正誤表をまとめています。<br><br>
 
+## 動作環境
+
+```
+python 3.9.5
+numpy==1.24.1
+torch==2.2.2+cu118
+torchvision==0.17.2+cu118
+```
+
 
 ## 正誤表
 
