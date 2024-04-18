@@ -14,4 +14,4 @@
 
 [正誤表](https://github.com/sg-nm/image-recognition/wiki/Errata)
 
-下記に掲載されていない誤植や間違いなどを見つけた方は，suganuma[at]vision.is.tohoku.ac.jpまでお知らせください。
+上記に掲載されていない誤植や間違いなどを見つけた方は，suganuma[at]vision.is.tohoku.ac.jpまでお知らせください。
