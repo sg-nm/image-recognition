@@ -1,4 +1,4 @@
-## 深層学習による画像認識の基礎
+## 「深層学習による画像認識の基礎」サポートページ
 
 <img src="https://github.com/sg-nm/image-recognition/assets/17783053/41eab885-dc9f-49f7-8449-fc84010576fc" width="256px"><br><br>
 
