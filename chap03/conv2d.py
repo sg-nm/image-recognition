@@ -76,5 +76,5 @@ if __name__ == '__main__':
     plt.subplot(122)
     plt.imshow(out[0, 0], cmap='gray')
     plt.title('Output image')
-    plt.savefig('./conved_output.png')
+    plt.savefig('./convolved_output.png')
     plt.show()
