@@ -7,3 +7,5 @@
 ```
 python conv2d.py
 ```
+
+![convolved_output](https://github.com/sg-nm/image-recognition/assets/17783053/4ecadf60-a977-45ef-9db4-54ec215e389c)
