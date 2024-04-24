@@ -5,7 +5,7 @@
 
 書籍[「深層学習による画像認識の基礎」](https://www.ohmsha.co.jp/book/9784274231841/)（オーム社出版）のサポートページです。
 
-本書で紹介したPython（PyTorch）のソースコードおよび正誤表をまとめています。<br><br>
+本書で紹介したPython（[PyTorch](https://pytorch.org/get-started/locally/)）のソースコードおよび正誤表をまとめています。<br><br>
 
 ## 正誤表
 
