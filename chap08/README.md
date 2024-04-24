@@ -17,6 +17,9 @@ Conceptual 12Mのダウンロードは，[こちら](https://github.com/rom1504/
     |-- gcc-conceptual-12m-001242.tar
 ```
 
+Tokenizer構築に必要なファイル（bpe_simple_vocab_16e6.txt.gz）は[こちら](https://github.com/openai/CLIP/tree/main/clip)からダウンロードできます．
+
+
 ## CLIPの学習
 
 下記のコマンドを実行することで，CLIPの学習が開始されます．
