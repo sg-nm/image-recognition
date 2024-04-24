@@ -1,6 +1,6 @@
 ## SimCLRの実装
 
-ここでは，[STL-10データセット](https://cs.stanford.edu/~acoates/stl10/)を用いたSimCLRの実装例を紹介します．
+ここでは，[STL-10データセット](https://cs.stanford.edu/~acoates/stl10/)を用いた[SimCLR](https://arxiv.org/abs/2002.05709)の実装例を紹介します．
 
 下記を実行することで，画像エンコーダ（ResNet-18）をSimCLRで最適化できます．
 
