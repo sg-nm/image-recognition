@@ -28,5 +28,17 @@ bash run.sh
 ```
 
 ミニバッチサイズ3072（GPU4枚）で20,000 iteration学習させたときの学習損失値の推移は以下の通りです．
-このときのImageNet-1Kの検証データに対するTop-1分類精度は23.4%，Top-5分類精度は47.3%です．
 <img src="https://github.com/sg-nm/image-recognition/assets/17783053/6206923a-a325-4f2e-a1a8-5ff817dee334" width="75%">
+
+## CLIPの評価
+
+以下を実行することで，学習済みCLIPのImageNet-1Kにおけるゼロショット画像分類精度を測ることができます．
+
+```
+bash run_eval.sh
+```
+
+学習済みモデルは，`./trained_model/epoch_latest.pt`として保存されていることを想定しています．
+また，ImageNet-1Kは[こちら](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php)から各自でダウンロードする必要があります．
+
+上記の学習コードで20,000　iteration学習させたCLIPのImageNet-1K（検証データ）に対するTop-1分類精度は23.4%，Top-5分類精度は47.3%です．
