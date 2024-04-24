@@ -1,0 +1,39 @@
+_base_: 'default.yml'
+
+train:
+  start_epoch: 0
+  epochs: 50
+  warmup_steps: 1000
+  base_lr: 4.0e-4
+  weight_decay: 0.05
+  grad_clip_norm: 0.0
+  warmup_lr: 4.0e-6
+  min_lr: 4.0e-6
+  lr_decay_iters: 200000
+
+img_encoder:
+  model_name: 'vit_s'
+  image_size: ${data.img_size}
+  patch_size: 16
+  head_width: 64
+  width: 384
+  heads: 8
+  layers: 12
+  mlp_ratio: 4.0
+  ls_init_value: null
+  gap: True
+  layer_norm_eps: 1.0e-5
+  drop_out: 0.0
+
+text_encoder:
+  context_length: ${data.max_tokens}
+  width: 384
+  layers: 12
+  vocab_size: 49408
+  heads: 6
+  ls_init_value: null
+  proj: 'mlp'
+  pooler_type: 'mean_pooler'
+
+embed_dim: 256
+contrast_temperature: 0.07
