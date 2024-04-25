@@ -2,6 +2,10 @@
 
 ここでは，ViT-S（画像エンコーダ）とTransformer（テキストエンコーダ）による[CLIP](https://arxiv.org/abs/2103.00020)の実装例を紹介します．
 
+![overview_clip](https://github.com/sg-nm/image-recognition/assets/17783053/44c115dd-77d8-41af-b392-8f33bf0f8279)<br><br>
+
+
+
 ## Data
 
 CLIPの原論文では，約4億の画像・キャプションペアが学習に用いられていますが，計算量削減のため，ここでは[Conceptual 12M](https://github.com/google-research-datasets/conceptual-12m)を使用します．
@@ -17,7 +21,7 @@ Conceptual 12Mのダウンロードは，[こちら](https://github.com/rom1504/
     |-- gcc-conceptual-12m-001242.tar
 ```
 
-Tokenizer構築に必要なファイル（bpe_simple_vocab_16e6.txt.gz）は[こちら](https://github.com/openai/CLIP/tree/main/clip)からダウンロードできます．
+Tokenizer構築に必要なファイル（bpe_simple_vocab_16e6.txt.gz）は[こちら](https://github.com/openai/CLIP/tree/main/clip)からダウンロードできます．<br>
 
 
 ## CLIPの学習
