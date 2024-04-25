@@ -1,8 +1,10 @@
 ## MLPによる画像分類（MNIST）
 
 本書内で紹介した2層MLPによる手書き数字（MNISTデータセット）の画像分類を行うコード例です．
+モデルの最適化部分にはPyTorchを用いず，Numpyのみで実装しています．
 
-モデルの最適化にPyTorchを用いずに，Numpyのみで実装しています．
+![image_classification](https://github.com/sg-nm/image-recognition/assets/17783053/ed1c6d69-a598-4f58-9ace-0c657ca8e254)
+
 
 下記を実行することで，MLPを学習できます．
 ```
