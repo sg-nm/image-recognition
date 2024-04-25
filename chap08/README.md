@@ -45,4 +45,4 @@ bash run_eval.sh
 学習済みモデルは，`./trained_model/epoch_latest.pt`として保存されていることを想定しています．
 また，ImageNet-1Kは[こちら](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php)から各自でダウンロードする必要があります．
 
-上記の学習コードで20,000　iteration学習させたCLIPのImageNet-1K（検証データ）に対するTop-1分類精度は23.4%，Top-5分類精度は47.3%です．
+上記の学習コードで20,000 iteration学習させたCLIPのImageNet-1K（検証データ）に対するTop-1分類精度は23.4%，Top-5分類精度は47.3%です．
